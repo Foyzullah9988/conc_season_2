@@ -1,0 +1,31 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+.nav-items{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+main ul li a{
+    text-decoration: none;
+    color: #707070;
+}
+.search-parent{
+    position: relative;
+}
+.search-parent input{
+    border-radius: 66px;
+    padding: 15px 30px;
+    width: 500px;
+    background-color: rgb(241, 241, 241);
+border: none
+;
+}
+
+.search-parent i {
+    position: absolute;
+    top: 16px;
+    right: 10px;
+    /* font-size: 300px; */
+}
